@@ -10,6 +10,7 @@ int main()
         printf("The absolute value is: %d\n", num);
     }
     else {
+        // num = -num
         num = num * -1;
         printf("The absolute value is: %d\n", num);
     }
