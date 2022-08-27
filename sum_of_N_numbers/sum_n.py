@@ -6,4 +6,4 @@ N = N + 1
 for i in range(1, N):
     sum += i
 
-print(sum)
+print(f"{sum}")
