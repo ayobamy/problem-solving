@@ -9,7 +9,7 @@ int main()
     {
         int mod;
         mod = num % 10;
-        printf("%d", mod);
+        printf("%d\n", mod);
         
         num = num / 10;
     }
