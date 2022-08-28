@@ -8,12 +8,13 @@ int main()
     a = 0; b = 1;
     for (i = 0; i < n; i++)
     {
-        printf("%d ", a);
+        printf("%d\t", a);
 
         result = a + b;
         a = b;
         b = result;
     }
+    printf("\n");
 
     return 0;
 }
